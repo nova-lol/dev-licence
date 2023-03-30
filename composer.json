@@ -1,0 +1,43 @@
+{
+    "name": "nova/devlic",
+    "description": "Nova Dev Licence",
+    "keywords": [
+        "nova",
+        "laravel",
+        "license"
+    ],
+    "homepage": "https://github.dev/nova-lol/dev-licence",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nova-lol",
+            "email": "fake@nova.lol",
+            "role": "NovaDeveloper"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^9.0|^10.0"
+    },
+    "repositories": [{
+      "type": "composer",
+      "url": "https://nova.laravel.buzz"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Nova\\DevLic\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nova\\DevLic\\NovaDevLicServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
