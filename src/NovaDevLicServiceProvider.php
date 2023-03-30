@@ -1,12 +1,12 @@
 <?php
 
-namespace NovaLol\FakeLicense;
+namespace Nova\DevLic;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Config;
 
-class NovaFakeLicenceServiceProvider extends ServiceProvider
+class NovaDevLicServiceProvider extends ServiceProvider
 {
     public function register()
     {
